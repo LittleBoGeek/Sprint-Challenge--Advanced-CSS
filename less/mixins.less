@@ -1,1 +1,18 @@
 // Mixins Here
+.navstyle(@j:center){
+display:flex;
+justify-content:@j;
+}
+
+.btnstyle(@b:darkblue,@c:white){
+    background:@b;
+    color:@c;
+    height: 4rem;
+    width:110px;
+
+}
+.tocenter(@h:center,@v:center){
+    display:flex;
+    justify-content: @h;
+    align-items: @v;
+}
